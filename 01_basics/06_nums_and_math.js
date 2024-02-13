@@ -1,26 +1,26 @@
-const score = 400;
+// const score = 400;
 // console.log(score);
 // console.log(typeof score);
 
-const balance = new Number(400)
+// const balance = new Number(400)
 // console.log(balance);
 // console.log(typeof balance);
 // console.log(balance.toString().length);
 // console.log(balance.toFixed(2));
 
-const totalAmount = 12547833.33333333;
+// const totalAmount = 12547833.33333333;
 // console.log(totalAmount.toFixed()); //toFixed():- Defines how much value to show after decimal.
 
 // const otherNumber = 23.8966;
 // console.log(otherNumber.toPrecision(3));
 
-const hundreds = 1000000;
+// const hundreds = 1000000;
 // console.log(hundreds.toLocaleString('en-In')); // converts numbers to Indian value format 10,00,000
 
 // ++++++++++++++++++++++++++++++++++ Maths ++++++++++++++++++++++++++++++++++++++++
 
 // console.log(Math);
-// console.log(Math.abs(-4));
+// console.log(Math.abs(-4)); // Converts number to positive value.
 // console.log(Math.round(4.3)); //Round off value 4
 // console.log(Math.round(4.6)); //Round off value 5
 // console.log(Math.ceil(4.2)); //Round off value 5
