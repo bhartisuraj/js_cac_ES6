@@ -1,7 +1,6 @@
 // Javascript is dynamically typed language.
 
 // # Primitive(Call by value)
-
 // String(text) 
 // const name = 'Suraj'
 // console.log(typeof name);
