@@ -37,33 +37,33 @@
 /*CalculateCartPrice*/
 
 function calculateCartPrice(...num1) {
-    return num1
-  }
-  console.log(calculateCartPrice(200, 400, 500))
-  
-  const user = {
-    username:"suraj",
-    price:199
-  }
-  
-  function handleObject (anyObject){
-    console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`);
-  }
-  
-  // handleObject(user)
-  handleObject({
-    username:"sam",
-    price:299
-  })
-  
-  const myNewArray = [200, 400, 100, 600]
-  
-  // function arrSecVal(){
-  //   console.log(myNewArray[1]);
-  // }
-  // arrSecVal()
-  
-  function returnSecondValue(getArray){
-    return getArray[1]
-  }
-  console.log(returnSecondValue(myNewArray));
+  return num1
+}
+console.log(calculateCartPrice(200, 400, 500))
+
+const user = {
+  username:"suraj",
+  price:199
+}
+
+function handleObject (anyObject){
+  console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`);
+}
+
+// handleObject(user)
+handleObject({
+  username:"sam",
+  price:299
+})
+
+const myNewArray = [200, 400, 100, 600]
+
+// function arrSecVal(){
+//   console.log(myNewArray[1]);
+// }
+// arrSecVal()
+
+function returnSecondValue(getArray){
+  return getArray[1]
+}
+console.log(returnSecondValue(myNewArray));
