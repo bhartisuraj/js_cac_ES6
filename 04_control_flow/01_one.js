@@ -1,12 +1,12 @@
-// if statement
+/******************** if statement ********************/
 
 // const isUserLoggedIn = true;
 // const temperature = 41;
-// if (temperature === 50) {
+// if (temperature < 50) {
 //     console.log('less than 50');
 // }
-// else {
-//     console.log('temperature is greater than 50');
+// else{
+//     console.log('greater than 50');
 // }
 
 // const score = 200;
@@ -17,8 +17,9 @@
 // console.log(`User power: ${power}`);
 
 // const balance = 1000;
-// if(balance>500) console.log("test1"),console.log('test2');
+// if(balance>500) console.log("test1"),console.log('test2') // not to write like this code is less readable
 
+/******************** Nesting if, else if, else ********************/
 // const balance = 1000;
 // if (balance < 500) {
 //     console.log('less than');
@@ -30,6 +31,7 @@
 //     console.log('less than 1200');
 // }
 
+/******************** Multiple if ********************/
 // const userLoggedIn = true
 // const debitCard = true
 // const LoggedInFromGoogle = false
