@@ -1,14 +1,14 @@
 // const userEmail = "s@suraj.ai"
-// const userEmail = []
+// // const userEmail = []
 
-// if (userEmail) {
+// if ("s@suraj.ai") {
 //   console.log('Got user email');
 // } else {
 //   console.log("Don't have user email");
 // }
 
 /* falsy values
-- false, 0, -0, BigInt 0n, "", null, undefined, NaN
+- false, 0, -0, BigInt ZeroN(0n), "", null, undefined, NaN
 
 truthy values
 - true, any number, "0", "false", " ", [], {}, function(){}
@@ -36,18 +36,17 @@ truthy values
 // const arrObj = Object.keys(myObj); // Convert Object to Array
 // console.log(arrObj);
 
-// nullish coalescing operator (??) null and undefined
-
-let val1;
-// val1 = 5 ?? 10;
-val1 = null ?? 10;
-// val1 = undefined ?? null
+// Nullish coalescing operator (??) null and undefined
+// let val1;
+// val1 = 5 ?? 10; // 5
+// val1 = null ?? 10; // 10
+// val1 = undefined ?? 10 // 10
+// val1 = undefined ?? null // null
+// val1 = null ?? undefined  // undefined
 // val1 = 15 ?? null
-console.log(val1);
+// console.log(val1);
 
-// Terniary Operator
-
+// Terniary Operator (condition ? true statement : false statement)
 // condition ? true : false
-
 // const iceTeaPrice = 100
-// iceTeaPrice >= 80 ? console.log("less than 80") : console.log("less than 150");
+// iceTeaPrice >= 80 ? console.log("less than 150") : console.log("less than 120");
