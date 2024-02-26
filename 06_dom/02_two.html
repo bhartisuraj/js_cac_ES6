@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM </title>
+</head>
+<body style="background-color: #212121; color:#fff">
+  <div class="parent">
+    <div class="day">Monday</div>
+    <div class="day">Tuesday</div>
+    <div class="day">Wednesday</div>
+    <div class="day">Thursday</div>
+  </div>
+</body>
+<script>
+  const parent = document.querySelector('.parent')
+  console.log(parent);
+  console.log(parent.children);
+  // console.log(parent.children[1].innerHTML);
+
+  // for (let i = 0; i < parent.children.length; i++) {
+  //   console.log(parent.children[i].innerHTML);
+    
+  // }
+  parent.children[1].style.color = 'orange'
+  // console.log(parent.firstElementChild); // To know first child in parent 
+  // console.log(parent.lastElementChild); // To know last child in parent
+
+  const dayOne = document.querySelector('.day')
+  // console.log(dayOne);
+  // console.log(dayOne.parentElement); // To know parent of dayOne variable. 
+  // console.log(dayOne.nextElementSibling); // To know sibling of element in dayOne variable.
+  console.log("NODES: ",parent.childNodes); // To know node in parent tag of element ie 9 because parent is 0th node 1st is enter key 2nd Monday, 3rd is enter key and so on.
+</script>
+</html>
