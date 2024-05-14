@@ -46,6 +46,6 @@ JsUser.greetingTwo = function () {
 // console.log(JsUser.greeting());
 // console.log(JsUser.greetingTwo());
 
-// Adding keys in JsUser
+// Adding key in JsUser
 // JsUser.id = 123;
 console.log(JsUser);
