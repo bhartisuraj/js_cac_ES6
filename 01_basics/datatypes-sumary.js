@@ -58,7 +58,7 @@
 // console.log(typeof functionExample);
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-// Stack(Primitive - changes done in copy file), Heap(Non-Primitive - changes done in original file)
+// Stack(Primitive - changes done in copy file - Deep Copy), Heap(Non-Primitive - changes done in original file - Shallow Copy)
 
 // let myYoutubeName = "surajbhartidotcom"
 // let anotherName = myYoutubeName
