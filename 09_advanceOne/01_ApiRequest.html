@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      th,td {
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body style="background-color: #212121" text="white">
+    <table border="1" align="center" padding="5">
+      <tr>
+        <th>Value</th>
+        <th>State</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <th>0</th>
+        <th>UNSENT</th>
+        <th>Client has been created. open() not called yet.</th>
+      </tr>
+      <tr>
+        <th>1</th>
+        <th>OPENED</th>
+        <th>open() has been called.</th>
+      </tr>
+      <tr>
+        <th>2</th>
+        <th>HEADERS_RECEIVED</th>
+        <th>send() has been called, and headers and status are available.</th>
+      </tr>
+      <tr>
+        <th>3</th>
+        <th>LOADING</th>
+        <th>Downloading; responseText holds partial data.</th>
+      </tr>
+      <tr>
+        <th>4</th>
+        <th>DONE</th>
+        <th>The operation is complete.</th>
+      </tr>
+    </table>
+
+    <script>
+      const requestUrl = "https://api.github.com/users/hiteshchoudhary";
+      const xhr = new XMLHttpRequest();
+
+      xhr.open("GET", requestUrl); // .open() takes two parameters
+      xhr.onreadystatechange = function () {
+      //    console.log(xhr.readyState);
+        if (xhr.readyState === 4) {
+          console.log(typeof (this.responseText)); // response is in String format
+          const data = JSON.parse(this.responseText); // converted string to object
+          console.log(typeof data);
+          console.log(data.followers);
+        }
+      };
+
+      xhr.send();
+    </script>
+  </body>
+</html>
